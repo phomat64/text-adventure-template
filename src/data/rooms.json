@@ -1,0 +1,54 @@
+{
+  "rooms" : [ {
+    "description" : "The hustle and bustle of civilians surround you. This is the busiest station you've been to",
+    "directionMap" : {
+      "north" : 2,
+      "south" : 1
+    },
+    "entityList" : [ {
+      "attributeSet" : {
+        "endurance" : 1,
+        "health" : 10,
+        "intelligence" : 8,
+        "luck" : 1,
+        "maxHealth" : 10,
+        "speed" : 3,
+        "strength" : 2
+      },
+      "description" : "A desperate old woman.",
+      "id" : 0,
+      "name" : "Old Homeless Woman",
+      "status" : 0
+    } ],
+    "id" : 0,
+    "itemList" : [ {
+      "actionScript" : "killplayer",
+      "description" : "Heals 30 points",
+      "id" : 0,
+      "name" : "blue potion",
+      "value" : 5,
+      "weight" : 20
+    } ],
+    "light" : 50,
+    "name" : "Train Station Office",
+    "regionName" : "Champion Street Train Station",
+    "roomEvents" : {
+      "actionEventMap" : {
+        "push" : {
+          "red button" : {
+            "actionScript" : "killplayer",
+            "message" : "You die now..."
+          }
+        }
+      },
+      "onEnterEvent" : {
+        "actionScript" : "heal",
+        "message" : "healed you"
+      },
+      "onExitEvent" : {
+        "actionScript" : "poison",
+        "message" : "poisoned you"
+      }
+    }
+  } ]
+}

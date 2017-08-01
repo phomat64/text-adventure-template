@@ -1,0 +1,25 @@
+page-game {
+
+    textarea {
+        height: 20vh;
+    }
+
+    .mainTextDisplayArea {
+        border: 1px solid black;
+        padding: 5px;
+        min-height: 40vh;
+        max-height: 40vh;
+        background: whitesmoke;
+        overflow-y: auto;
+    }
+
+    .mainCommandTextDisplayArea {
+        border: 1px solid black;
+        padding: 2px;
+        // min-height: 20vh;
+        // max-height: 20vh;
+        background: whitesmoke;
+        overflow-y: auto;
+    }
+
+}

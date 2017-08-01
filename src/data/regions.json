@@ -1,0 +1,21 @@
+{
+    "regions" : [
+        {
+            "id" : 0,
+            "name" : "",
+            "description" : "",
+            "roomVolatileData" : [
+                {
+                    "roomId" : 0,
+                    "entityIds" : [],
+                    "itemIds" : []
+                },
+                {
+                    "roomId" : 1,
+                    "entityIds" : [],
+                    "itemIds" : []
+                }
+            ]
+        }
+    ]
+}
